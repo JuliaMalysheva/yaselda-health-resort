@@ -1,0 +1,1 @@
+<div class="slide" style="background-image: url('{SITE}/sanat-images/doctors/{IMAGE_LINK}');"></div>

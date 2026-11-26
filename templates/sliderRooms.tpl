@@ -1,0 +1,1 @@
+<div class="slide-room" style="background-image: url('{SITE}/sanat-images/living_rooms/{IMAGE_LINK}');"></div>

@@ -1,0 +1,2036 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.color-blue{
+    color: #608C99;
+}
+.color-green{
+    color: #919E66;
+}
+.color-green20{
+    color: rgba(145, 158, 102, 0.2);
+    transition: color 0.3s ease;
+}
+.color-beige{
+    color:#FFF9EE;
+}
+.color-dark{
+    color: #3E4A56;
+}
+.color-dark50{
+    color: rgba(62, 74, 86, 0.5);
+}
+.padding100{
+    padding: 0px 100px;
+}
+/*текст*/
+.font-unbounded-light{
+    font-family: 'Unbounded';
+    font-weight: 300;
+}
+.font-unbounded-regular{
+    font-family: 'Unbounded';
+    font-weight: 400;
+}
+.font-unbounded-medium{
+    font-family: 'Unbounded';
+    font-weight: 500;
+}
+.font-unbounded-semibold{
+    font-family: 'Unbounded';
+    font-weight: 600;
+}
+.font-leohand-medium{
+    font-family: 'LeoHand';
+    font-weight: 500;
+}
+.font-size12{
+    font-size: 12px;
+}
+.font-size13{
+    font-size: 13px;
+}
+.font-size14, .font-size-14{
+    font-size: 14px;
+}
+.font-size16{
+    font-size: 16px;
+}
+.font-size18{
+    font-size: 18px;
+}
+.font-size20{
+    font-size: 20px;
+}
+.font-size22{
+    font-size: 22px;
+}
+.font-size24{
+    font-size: 24px;
+}
+.font-size36{
+    font-size: 36px;
+}
+.font-size40{
+    font-size: 40px;
+}
+.font-size48{
+    font-size: 48px;
+}
+.font-size60{
+    font-size: 60px;
+}
+.font-size80{
+    font-size: 80px;
+}
+.font-size96{
+    font-size: 96px;
+}
+.font-size128{
+    font-size: 128px;
+}
+.font-size200{
+    font-size: 180px;
+}
+.font-unbounded-light, .font-unbounded-regular, .font-unbounded-medium, .font-unbounded-semibold, .font-leohand-medium, .font-size14, .font-size16, .font-size18, .font-size20, .font-size22, .font-size24,
+.font-size36, .font-size40, .font-size48, .font-size60, .font-size80, .font-size96, .font-size128, .font-size200{
+    transition: all 0.3s ease;
+}
+h1, h2, .block1contacts-style .contacs-sections p{
+    text-transform: uppercase;
+}
+p{
+    line-height: 140%;
+}
+
+
+.burger-menu-open, .burger-menu-close {
+    display: none;
+    background: none;
+    border: none;
+    padding: 8px;
+}
+
+.burger-menu-open img, .burger-menu-close img {
+    width: 35px;
+    height: 35px;
+}
+
+.burger-menu-inside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF9EE;
+    z-index: 1000;
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+
+.burger-menu-inside.active {
+    transform: translateX(0);
+}
+
+.burger-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.burger-header img {
+    height: 70px;
+}
+
+.burger {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    list-style: none;
+    padding: 40px 30px;
+    margin: 0;
+}
+
+.burger li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 400;
+    color: #3E4A56;
+    transition: color 0.3s ease;
+}
+
+.burger li a:hover {
+    color: #608C99;
+}
+
+
+.header-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 70px;
+    z-index: 2;
+    padding: 20px 100px;
+
+}
+.menu-style{
+    padding: 30px 0px 20px 0px;
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 35px;
+    list-style: none;
+}
+.img-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+a.color-dark:hover{
+    color:#608C99;
+}
+.block1-style{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*z-index: 0;*/
+}
+.block-title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0px 100px 80px 100px;
+    margin-top: 280px;
+    /*z-index: 2;*/
+}
+.block2-style{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 100px;
+    background-color: #FFF9EE;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px 0px 0px;
+    flex: 1;
+    /*gap: 30px;*/
+}
+.container-title
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 0px 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.number-style{
+    margin-top: -130px;
+}
+.number-style p {
+    color: rgba(96, 140, 153, 0.1);
+    transition: color 0.3s ease;
+    line-height: 90%;
+    vertical-align: middle;
+}
+.butt-moreinfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    background-color: #FFF9EE;
+    gap: 10px;
+    margin-top: 30px;
+}
+.icon-arrow{
+    padding: 20px 16px;
+    border: solid 2px rgba(145, 158, 102, 0.2);
+    border-radius: 50px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hidden-text{
+    margin-left: -190px;
+    transition: margin-left 0.8s ease;
+    opacity: 0;
+}
+.container:hover .hidden-text {
+    margin-left: 0px;
+    opacity: 1;
+}
+.container:hover .number-style p {
+    color: rgba(96, 140, 153, 0.3); 
+}
+.container:hover .icon-arrow {
+    border-color: rgba(145, 158, 102, 1); 
+}
+.block3-style, .block4-style, .block6-style, .block3about-style, .block2livroom-style{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+    gap: 60px;
+}
+.block3about-style, .block2livroom-style{
+    background-color: #FFF9EE;
+}
+.block3-style{
+    background-color: #608C99;
+}
+.block4-style, .block6-style{
+    background-color: #FFF9EE;
+}
+
+.profili{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    gap: 20px;
+}
+.profil-style1, .profil-style2, .profil-style3, .profil-style4, .profil-style5, .profil-style6{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+.profil-style1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    grid-area: 1 / 1 / 2 / 2;
+}
+.profil-style2{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    grid-area: 1 / 2 / 2 / 3;
+}
+.profil-style3{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    grid-area: 1 / 3 / 2 / 4;
+}
+.profil-style4{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+    grid-area: 2 / 1 / 3 / 2;
+}
+.profil-style5{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+   
+    grid-area: 2 / 2 / 3 / 3;
+}
+.profil-style6{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    grid-column: 3/4;
+    grid-row: 2/3;
+    grid-area: 2 / 3 / 3 / 4;
+}
+.profil-style1::before, .profil-style2::before, .profil-style3::before, .profil-style4::before, .profil-style5::before, .profil-style6::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 74, 86, 0.2);
+    transition: all 0.2s ease;
+    opacity: 1;
+    z-index: 2;
+}
+.profil-style1 > p, .profil-style2 > p, .profil-style3 > p, .profil-style4 > p, .profil-style5 > p, .profil-style6 > p{
+    position: relative;
+    z-index: 3;
+}
+.profil-style1:hover::before, .profil-style2:hover::before, .profil-style3:hover::before, .profil-style4:hover::before, .profil-style5:hover::before, .profil-style6:hover::before{
+    opacity: 0;
+}
+.profil-style1 p, .profil-style2 p, .profil-style3 p, .profil-style4 p, .profil-style5 p, .profil-style6 p{
+    color:#FFF9EE;
+    transition: color 0.3s ease;
+
+}
+.profil-style1:hover p, .profil-style2:hover p, .profil-style3:hover p, .profil-style4:hover p, .profil-style5:hover p, .profil-style6:hover p{
+    color:#3E4A56;
+}
+
+.lech-programa{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.lech-programa div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.lech-programa div:first-child p:first-child{
+    width: 105px;
+}
+.lech-programa div:last-child{
+    width: 48%;
+}
+.butt-lechprog{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*align-self: center;*/
+    border: none;
+    background-color: #FFF9EE;
+    padding: 20px 16px;
+    border: solid 2px rgba(145, 158, 102, 0.2);
+    border-radius: 50px;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+.lech-programa:hover p:first-child{
+    color:rgba(145, 158, 102, 1);
+}
+.lech-programa:hover .butt-lechprog{
+    border: solid 2px rgba(145, 158, 102, 1);
+}
+.button-style{
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #608C99;
+    padding: 10px 40px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+.button-style:hover{
+    background-color: rgba(96, 140, 153, 0.8);
+}
+.block5-style{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+}
+.comments, .footer-secpart{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex: 1;
+}
+.footer-secpart{
+    justify-content: space-between;
+}
+.comment-style{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px 40px 0px 0px;
+}
+.comment-style div p:first-child{
+    margin-bottom: 5px;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.lastblock-style{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+    gap: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.footer-style{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 100px 50px 100px;
+    background-color: #FFF9EE;
+    gap: 250px;
+}
+div.logo-media nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+}
+.logo-media{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 420px;
+}
+.media-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    list-style: none;
+}
+
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+.footer-secpart div p{
+    margin-bottom: 10px;
+}
+div.footer-secpart div:last-child div:last-child{
+    margin-top: 20px;
+}
+
+/*врачи*/
+.points-style{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.block1doc-style, .block2doc-style{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF9EE;
+}
+.block1doc-style{
+    gap: 80px;
+    padding: 100px 0px;
+}
+.block2doc-style{
+    gap: 60px;
+    padding: 80px 100px;
+}
+.pagetitle-style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 100px;
+}
+.img-top{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+}
+.doctors-style{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+}
+.doc-card{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: flex-end;
+    gap: 20px;
+    width: 19.23%;            
+    height: 370px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.doc1{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.doc-card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent 0%, #3E4A56 100%);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+.doc-card > div,
+.doc-card > p {
+    position: relative;
+    z-index: 3;
+}
+.fio-style{
+    font-family: 'Unbounded';
+    font-weight: 300;
+    transition: font-weight 0.3s ease;
+}
+.hidden-text-doc{
+    max-height: 0; 
+    opacity: 0; 
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+.doc-card:hover .hidden-text-doc {
+    max-height: 150px; 
+    opacity: 1;
+}
+.doc-card:hover::before{
+    opacity: 0.8;
+}
+.doc-card:hover .fio-style p{
+    font-weight: 600;
+}
+
+/*-----О САНАТОРИИ-----*/
+.block1about-style{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+    background-color: #FFF9EE;
+    gap: 90px;
+}
+.block-texttop, .block1about-images, .block-numbers, .block2about-style, .dr-gallery{
+    display: flex;
+    flex-direction: row;
+}
+.block-texttop{
+    gap: 37px;
+}
+.block1about-images{
+    gap: 20px;
+    align-items: flex-end;
+    min-height: 340px;
+}
+.gap-style{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 525px;
+    height: 217px;
+}
+.image1-style{
+    width: 55%;
+    height: 340px;
+    transition: all 0.3s ease;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.image2-style{
+    width: 25%;
+    height: 280px;
+    transition: all 0.3s ease;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.block-numbers{
+    gap: 20px;
+    padding: 80px 100px;
+    background-color: #FFF9EE;
+}
+.one-number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    width: 25%;
+}
+.block2about-style{
+    padding: 80px 100px;
+    background-color: #FFF9EE;
+    gap: 125px;
+}
+.blocktxtimg-about, .blockimglogo-about{
+    display: flex;
+    flex-direction: column;
+}
+.blocktxtimg-about{
+    gap: 80px;
+}
+.blockimglogo-about{
+    gap: 100px;
+}
+.logoabout-style{
+    height: 157px; 
+    opacity: 0.3;
+}
+.blockgallery-doctors{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+    gap: 60px;
+    background-color: #FFF9EE;
+    position: relative;
+}
+.dr-gallery { 
+    position: relative; 
+    width: 100%; 
+    overflow: hidden; 
+    height: 650px;
+} 
+.slides, .slides-room { 
+    display: flex; 
+    height: 100%; 
+    width: 100%;
+    transition: transform 0.5s ease;
+} 
+.slide, .slide-room { 
+    flex: 0 0 100%; 
+    height: 100%; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+.proc-gallery .nav-area, .morerooms-gallery .nav-area, .dr-gallery .nav-area, .room-gallery .nav-area { 
+    position: absolute; 
+    top: 0; 
+    width: 10%;
+    height: 100%; 
+    cursor: pointer; 
+    z-index: 10;
+} 
+.proc-gallery .nav-area.left, .morerooms-gallery .nav-area.left, .dr-gallery .nav-area.left, .room-gallery .nav-area.left { 
+    left: 0; 
+} 
+.proc-gallery .nav-area.right, .morerooms-gallery .nav-area.right, .dr-gallery .nav-area.right, .room-gallery .nav-area.right { 
+    right: 0; 
+} 
+.proc-gallery .nav-area.left:hover, .morerooms-gallery .nav-area.left:hover, .dr-gallery .nav-area.left:hover, .room-gallery .nav-area.left:hover { 
+    cursor: url('./sanat-images/icon-arrowleft.svg'), auto; 
+} 
+.proc-gallery .nav-area.right:hover, .morerooms-gallery .nav-area.right:hover, .dr-gallery .nav-area.right:hover, .room-gallery .nav-area.right:hover { 
+    cursor: url('./sanat-images/icon-arrowright.svg'), auto; 
+}
+
+/*------ПРОЖИВАНИЕ------*/
+.livingrooms-style{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+    gap: 20px;
+}
+.oneroom-style{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+    min-width: 610px;
+}
+.oneroom-style:last-child{
+    margin-bottom: 0px;
+}
+.imgroom-container{
+    overflow: hidden; 
+    height: 300px;
+    width: 610px;
+}
+.imgroom-style{
+    height: 300px;
+    width: 610px;
+    transition: transform 0.5s ease;
+}
+.imgroom-style:hover{
+    transform: scale(1.1);
+}
+
+.room-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/*-----ОДНОМЕСТНЫЙ НОМЕР-----*/
+.block2info-style{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: #FFF9EE;
+    padding: 80px 0px 80px 100px;
+    justify-content: space-between;
+}
+.inforoom{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.marginbott10{
+    margin-bottom: 10px;
+}
+.onecard-rinfo{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    flex: 1; 
+    min-width: 295px;
+}
+.roominfo-cards{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 145px;
+    gap: 20px;
+}
+.onerow-info{
+    display: flex; 
+    flex-direction: row;
+    gap: 50px;
+}
+.marginbott30{
+    margin-bottom: 30px;
+}
+.room-gallery{
+    position: relative; 
+    width: 710px; 
+    height: 700px; 
+    overflow: hidden;
+}
+.block3livroom-style, .block1procedures-style{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0px 80px 100px;
+    gap: 60px;
+    background-color: #FFF9EE;
+}
+
+.morerooms-gallery, .proc-gallery {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.morerooms-gallery {
+    /*flex: 0 0 610px;*/
+    min-width: 610px;
+    margin-bottom: 0;
+}
+
+
+.block-morerooms {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+    width: fit-content;
+}
+
+/*----КОНТАКТЫ----*/
+.block1contacts-style{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 100px;
+    background-color: #FFF9EE;
+    gap: 20px;
+    min-height: 600px;
+
+    transition: height 0.3s ease;
+}
+.contacs-sections{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+}
+.padding-510{
+    padding: 5px 10px;
+}
+p.padding-510.font-size20:hover{
+    color:#608C99;
+    cursor: pointer;
+}
+.font-size20, .font-size48{
+    transition: font-size 0.3s ease;
+}
+
+.contacts-info1 {
+    flex-direction: column;
+    gap: 10px;
+    display: flex; 
+    width: 55%; 
+    transition: opacity 0.3s ease;
+}
+
+.hidden-contacts-info {
+    display: none; 
+}
+
+.visible-contactsinfo {
+    animation: fadeIn 0.3s ease;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.contacts-socialmedia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.mapcontacts-style{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 80px 0px;
+    background-color: #FFF9EE;
+}
+.block2contacts-style{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px;
+    gap: 60px;
+    background-color: #FFF9EE;
+}
+.blocknumbers-style{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/*----ПРОЦЕДУРЫ----*/
+
+.procedures{
+    display: flex;
+    gap: 20px;
+    transition: transform 0.5s ease;
+    width: fit-content;
+}
+
+.oneproc-container {
+    position: relative;
+    height: 370px;
+    width: 295px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.oneproc-style {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 25px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.oneproc-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.5s ease;
+    z-index: 0;
+}
+
+.oneproc-img::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(62, 74, 86, 0.2);
+    transition: all 0.3s ease;
+    z-index: 0;
+}
+
+.oneproc-style > p {
+    position: relative;
+    z-index: 2;
+    font-weight: 300;
+    transition: font-weight 0.3s ease;
+}
+
+.oneproc-style > p:last-of-type {
+    margin-top: auto;
+}
+
+.procedure-hover {
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #608C99;
+    padding: 15px;
+    transition: bottom 0.5s ease;
+    z-index: 3;
+    box-sizing: border-box;
+}
+
+.oneproc-container:hover .procedure-hover {
+    bottom: 0;
+}
+
+.oneproc-container:hover .oneproc-img::before {
+    background-color: rgba(62, 74, 86, 0.5);
+}
+
+.oneproc-container:hover .oneproc-style > p {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease;
+}
+
+.procedure-hover-content {
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.procedure-hover-content p {
+    color: #FFF9EE;
+    line-height: 1.4;
+    margin: 0;
+}
+
+
+@media(max-width: 1024px){
+    .font-size14, .font-size16{
+        font-size: 12px;
+    }
+    .font-size18, .font-size20{
+        font-size: 16px;
+    }
+    .font-size24, .font-size22{
+        font-size: 18px;
+    }
+    .font-size36{
+        font-size: 27px;
+    }
+    .font-size40, .font-size48{
+        font-size: 30px;
+    }
+    .font-size60{
+        font-size: 40px;
+    }
+    .font-size80, .font-size96 {
+        font-size: 48px;
+    }
+    .font-size200{
+        font-size: 120px;
+    }
+
+    .burger-header {
+        padding: 20px 50px;
+    }
+    .burger{
+        padding: 40px 50px;
+    }
+    .burger-menu-open {
+        display: flex;
+    }
+
+    .burger-menu-close {
+        display: flex;
+    }
+    .img-logo {
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    /*главная*/
+    .header-style {
+        padding: 50px 50px;
+    }
+    .menu-style{
+        display: none;
+    }
+    .block-title{
+        padding: 0px 45px 80px 45px;
+    }
+    .block2-style, .block3-style, .block4-style, .block6-style, .lastblock-style{
+        padding: 60px 50px;
+    }
+    .block2-style{
+        /*flex-direction: column;*/
+        align-items: center;
+        gap: 20px;
+    }
+    .container{
+        padding: 50px 0px;
+        align-items: flex-start;
+        /*width: 50%;*/
+    }
+    .container-title{
+        gap: 15px;
+        padding: 0px 30px 0px 60px;
+    }
+    .container-title img{
+        height: 50px;
+        width: 50px;
+    }
+    .number-style{
+        margin-top: -90px;
+    }
+    .number-style p{
+
+    }
+    .icon-arrow{
+        padding: 13px 11px;
+    }
+    .hidden-text{
+        margin-left: -165px;
+    }
+    .butt-moreinfo img{
+        width: 15px;
+    }
+    .block3-style, .block4-style, .block6-style{
+        gap: 40px;
+    }
+    .butt-lechprog{
+        padding: 13px 11px;
+    }
+    .butt-lechprog img{
+        width: 15px;
+    }
+    .lech-programa div:first-child p:first-child {
+        width: 70px;
+    }
+    .block5-style{
+        height: 250px;
+    }
+    .comment-style{
+        gap: 20px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .comment-style div p:first-child{
+        margin-bottom: 0px;
+    }
+    .button-style{
+        padding: 12px 30px;
+    }
+    .footer-style{
+        padding: 60px 45px;
+        gap: 20px;
+    }
+    .logo-media{
+        gap: 20px;
+        width: 40%;
+    }
+    .logo-media div p.color-dark.font-unbounded-light.font-size16{
+        font-size: 12px;
+    }
+    div.logo-media nav ul li a img{
+        width: 30px;
+        height: 30px;
+    }
+
+    /*о санатории*/
+    .block1about-style, .block-numbers, .block2about-style, .block3about-style, .block2livroom-style, .block2doc-style, .blockgallery-doctors, .block1procedures-style, .block1contacts-style, .block2contacts-style, .block2info-style, .block3livroom-style{
+        padding: 60px 45px;
+    }
+    .block3about-style, .block2doc-style, .blockgallery-doctors, .block2livroom-style, .block1procedures-style, .block1contacts-style, .block2contacts-style, .block2info-style, .block3livroom-style{
+        gap: 40px;
+    }
+    .block1doc-style{
+        gap: 40px;
+        padding: 50px 0px;
+    }
+    .pagetitle-style{
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .img-top{
+        height: 450px;
+    }
+    .block1about-style{
+        gap: 50px;
+    }
+    .block-texttop{
+        flex-direction: column;
+    }
+    .gap-style{
+        width: 100%;
+        height: fit-content;
+    }
+    .image2-style{
+        display: none;
+    }
+    .image1-style {
+        width: 100%;
+    }
+    .block-numbers{
+        flex-wrap: wrap;
+    }
+    .block2about-style{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .one-number {
+        width: 42%;
+    }
+    .blocktxtimg-about{
+        gap: 50px;
+    }
+    .blocktxtimg-about p{
+        order: 2;
+    }
+    .blocktxtimg-about div{
+        order: 1;
+    }
+    .blockimglogo-about {
+        gap: 30px;
+        align-items: center;
+    }
+    .blockimglogo-about img:first-child{
+        width: 100%;
+    }
+    .logoabout-style{
+        width: 60%;
+    }
+
+    /*врачи*/
+    .doc-card{
+        padding: 15px;
+        gap: 15px;
+        width: 182px;        
+        height: 250px;
+    }
+    .doc-card:hover .hidden-text-doc {
+        max-height: 30px;
+    }
+
+    .block2info-style{
+        flex-direction: column;
+    }
+    .inforoom {
+        width: 100%;
+        gap: 30px;
+    }
+    .roominfo-cards {
+        margin-bottom: 50px;
+    }
+    .room-gallery {
+        width: 100%;
+        height: 450px;
+    }
+
+
+}
+
+
+@media(max-width: 768px){
+    .font-size14{
+        font-size: 12px;
+    }
+    .font-size16{
+        font-size: 14px;
+    }
+    .font-size18, .font-size20{
+        font-size: 16px;
+    }
+    .font-size24, .font-size22{
+        font-size: 18px;
+    }
+    .font-size36, .font-size40{
+        font-size: 30px;
+    }
+    .font-size48{
+        font-size: 30px;
+    }
+    .font-size60{
+        font-size: 40px;
+    }
+    .font-size80{
+        font-size: 42px;
+    }
+    .font-size96 {
+        font-size: 48px;
+    }
+    .font-size200{
+        font-size: 100px;
+    }
+
+    /*главная*/
+    .block1-style{
+        height: 100vh;
+    }
+    .header-style {
+        padding: 50px 50px;
+    }
+    .menu-style{
+        display: none;
+    }
+    .block-title{
+        padding: 0px 45px 80px 45px;
+    }
+    .block2-style, .block3-style, .block4-style, .block6-style, .lastblock-style{
+        padding: 60px 50px;
+    }
+    .block2-style{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container{
+        padding: 50px 0px;
+        align-items: flex-start;
+        width: 80%;
+    }
+    .container:last-child{
+        padding: 50px 0px 0px 0px;
+        width: 80%;
+    }
+    .container-title{
+        gap: 15px;
+        padding: 0px 30px 0px 60px;
+    }
+    .container-title img{
+        height: 50px;
+        width: 50px;
+    }
+    .number-style{
+        margin-top: -90px;
+    }
+    .number-style p{
+
+    }
+    .icon-arrow{
+        padding: 13px 11px;
+    }
+    .hidden-text{
+        margin-left: -165px;
+    }
+    .butt-moreinfo img{
+        width: 15px;
+    }
+    .block3-style, .block4-style, .block6-style{
+        gap: 40px;
+    }
+    .profili{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 250px);
+        gap: 20px;
+    }
+    .profil-style1, .profil-style2, .profil-style3, .profil-style4, .profil-style5, .profil-style6{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 1;
+    }
+    .profil-style1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .profil-style2{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .profil-style3{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .profil-style4{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .profil-style5{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .profil-style6{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .butt-lechprog{
+        padding: 13px 11px;
+    }
+    .butt-lechprog img{
+        width: 15px;
+    }
+    .lech-programa div p.color-dark.font-unbounded-regular.font-size36{
+        font-size: 23px;
+        width: 170px;
+    }
+    .lech-programa div:first-child p:first-child {
+        width: 70px;
+    }
+    .lech-programa div:last-child {
+        width: 358px;
+    }
+    .block5-style{
+        height: 250px;
+    }
+    .comments{
+        flex-direction: column;
+    }
+    .comment-style{
+        gap: 20px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .comment-style div p:first-child{
+        margin-bottom: 0px;
+    }
+    .button-style{
+        padding: 12px 30px;
+    }
+    .footer-style{
+        padding: 60px 45px;
+        gap: 20px;
+    }
+    .logo-media{
+        gap: 20px;
+        width: 40%;
+    }
+    .logo-media div p.color-dark.font-unbounded-light.font-size16{
+        font-size: 12px;
+    }
+    div.logo-media nav ul li a img{
+        width: 30px;
+        height: 30px;
+    }
+    .footer-secpart div:first-child{
+        width: 45%;
+    }
+    div.footer-secpart div:last-child div:last-child{
+        margin-top: 35px;
+    }
+
+    /*о санатории*/
+    .block1about-style, .block-numbers, .block2about-style, .block3about-style, .block2livroom-style, .block2doc-style, .blockgallery-doctors, .block1procedures-style, .block1contacts-style, .block2contacts-style, .block2info-style, .block3livroom-style{
+        padding: 60px 45px;
+    }
+    .block3about-style, .block2doc-style, .blockgallery-doctors, .block2livroom-style, .block1procedures-style, .block1contacts-style, .block2contacts-style, .block2info-style, .block3livroom-style{
+        gap: 40px;
+    }
+    .block1doc-style{
+        gap: 40px;
+        padding: 50px 0px;
+    }
+    .pagetitle-style{
+        padding: 30px 50px;
+        text-align: center;
+    }
+    .img-top{
+        height: 300px;
+    }
+    .block1about-style{
+        gap: 50px;
+    }
+    .block-texttop{
+        flex-direction: column;
+    }
+    .gap-style{
+        width: 100%;
+        height: fit-content;
+    }
+    .image2-style{
+        display: none;
+    }
+    .image1-style{
+        width: 100%;
+    }
+    .block-numbers{
+        flex-wrap: wrap;
+    }
+    .block2about-style{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .one-number {
+        width: 42%;
+    }
+    .blocktxtimg-about{
+        gap: 50px;
+    }
+    .blocktxtimg-about p{
+        order: 2;
+    }
+    .blocktxtimg-about div{
+        order: 1;
+    }
+    .blockimglogo-about {
+        gap: 30px;
+        align-items: center;
+    }
+    .blockimglogo-about img:first-child{
+        width: 100%;
+    }
+    .logoabout-style{
+        width: 60%;
+    }
+
+    /*врачи*/
+    .doc-card{
+        padding: 15px;
+        gap: 15px;
+        width: 182px;            
+        height: 250px;
+    }
+    .doc-card:hover .hidden-text-doc {
+        max-height: 30px;
+    }
+    .block2info-style{
+        flex-direction: column;
+    }
+    .inforoom {
+        width: 100%;
+        gap: 30px;
+    }
+    .roominfo-cards {
+        margin-bottom: 50px;
+    }
+    .room-gallery {
+        width: 100%;
+        height: 300px;
+    }
+    .inforoom .roominfo-cards .onerow-info .onecard-rinfo p{
+        font-size: 16px;
+    }
+
+
+}
+
+@media(max-width: 480px){
+    .font-size14{
+        font-size: 10px;
+    }
+    .font-size16{
+        font-size: 12px;
+    }
+    .font-size18{
+        font-size: 14px;
+    }
+    .font-size20{
+        font-size: 16px;
+    }
+    .font-size24, .font-size22{
+        font-size: 18px;
+    }
+    .font-size36{
+        font-size: 24px;
+    }
+    .font-size40{
+        font-size: 25px;
+    }
+    .font-size48{
+        font-size: 28px;
+    }
+    .font-size80{
+        font-size: 40px;
+    }
+    .font-size96{
+        font-size: 32px;
+    }
+    .font-size200{
+        font-size: 120px;
+    }
+    .font-size128{
+        font-size: 100px;
+    }
+
+
+    .burger-header {
+        padding: 15px 30px;
+    }
+
+    .burger-header img {
+        height: 60px;
+    }
+
+    .burger {
+        padding: 30px 30px;
+    }
+
+    .burger li a {
+        font-size: 20px;
+    }
+
+    .img-logo a {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .burger-menu-open {
+        position: relative;
+        z-index: 10;
+        margin-left: auto;
+    }
+    /*главная*/
+    .block1-style{
+        height: 100vh;
+    }
+    .header-style {
+        padding: 30px 30px;
+    }
+    .menu-style{
+        display: none;
+    }
+    .block-title{
+        padding: 0px 30px 80px 30px;
+    }
+    .block2-style{
+        flex-direction: column;
+        padding: 70px 30px;
+    }
+    .container{
+        padding: 50px 0px;
+    }
+    .container-title{
+        gap: 15px;
+        justify-content: flex-end;
+    }
+    .container-title img{
+        height: 50px;
+        width: 50px;
+    }
+    .number-style{
+        margin-top: -90px;
+    }
+    .number-style p{
+
+    }
+    .icon-arrow{
+        padding: 13px 11px;
+    }
+    .hidden-text{
+        margin-left: -150px;
+    }
+    .butt-moreinfo{
+        margin-top: 15px;
+    }
+    .butt-moreinfo img{
+        width: 15px;
+    }
+    .container:last-child{
+        padding: 80px 0px 0px 0px;
+    }
+    .block3-style, .block4-style, .block6-style, .lastblock-style{
+        padding: 70px 30px;
+        gap: 30px;
+    }
+    .profili{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 250px);
+        gap: 20px;
+    }
+    .profil-style1, .profil-style2, .profil-style3, .profil-style4, .profil-style5, .profil-style6{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 1;
+    }
+    .profil-style1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    .profil-style2{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    .profil-style3{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    .profil-style4{
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    .profil-style5{
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .profil-style6{
+        grid-area: 3 / 2 / 4 / 3;
+    }
+    .lech-programa{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .butt-lechprog{
+        padding: 13px 11px;
+    }
+    .butt-lechprog img{
+        width: 15px;
+    }
+    .lech-programa div:last-child{
+        width: 100%;
+    }
+    .block5-style{
+        height: 250px;
+    }
+    .comments{
+        flex-direction: column;
+    }
+    .comment-style{
+        gap: 20px;
+        padding: 0px;
+        margin-bottom: 30px;
+    }
+    .comment-style div p:first-child{
+        margin-bottom: 0px;
+    }
+    .button-style{
+        padding: 12px 30px;
+    }
+    .footer-style{
+        padding: 50px 30px;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .logo-media{
+        gap: 20px;
+    }
+    div.logo-media nav ul li a img{
+        width: 30px;
+        height: 30px;
+    }
+    div.footer-secpart div:last-child div:last-child{
+        margin-top: 35px;
+    }
+
+    /*о санатории*/
+    .block1about-style, .block-numbers, .block2about-style, .block3about-style, .block2livroom-style, .block2doc-style, .blockgallery-doctors, .block1procedures-style, .block1contacts-style, .block2contacts-style, .block2info-style, .block3livroom-style{
+        padding: 50px 30px;
+    }
+    .block3about-style, .block2doc-style, .blockgallery-doctors, .block2livroom-style, .block1procedures-style, .block1contacts-style, .block2contacts-style, .block2info-style, .block3livroom-style{
+        gap: 30px;
+    }
+    .block1doc-style{
+        gap: 40px;
+        padding: 50px 0px;
+    }
+    .pagetitle-style{
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .img-top{
+        height: 300px;
+    }
+    .block1about-style{
+        gap: 50px;
+    }
+    .block-texttop{
+        flex-direction: column;
+    }
+    .gap-style{
+        width: 100%;
+        height: fit-content;
+    }
+    .image2-style{
+        display: none;
+    }
+    .image1-style{
+        width: 100%;
+    }
+    .block-numbers{
+        flex-direction: column;
+        align-items: center;
+    }
+    .block2about-style{
+        flex-direction: column;
+        gap: 85px;
+    }
+    .one-number {
+        width: 100%;
+    }
+    .blocktxtimg-about{
+        gap: 50px;
+    }
+    .blocktxtimg-about p{
+        order: 2;
+    }
+    .blocktxtimg-about div{
+        order: 1;
+    }
+    .blockimglogo-about {
+        gap: 30px;
+        align-items: center;
+    }
+    .blockimglogo-about img:first-child{
+        width: 100%;
+    }
+    .logoabout-style{
+        width: 70%;
+    }
+
+    /*врачи*/
+    .doc-card{
+        padding: 15px;
+        gap: 15px;
+        width: 40.45%;            
+        height: 250px;
+    }
+    .doc-card:hover .hidden-text-doc {
+        max-height: 30px;
+    }
+
+    /*проживание*/
+    .oneroom-style{
+        min-width: 100%;
+        margin-bottom: 10px;
+        gap: 15px;
+    }
+    .imgroom-container, .imgroom-style{
+        width: 100%;
+        height: 250px;
+    }
+
+    /*комната*/
+    .block2info-style{
+        flex-direction: column;
+    }
+    .onerow-info {
+        gap: 35px;
+    }
+    .onecard-rinfo {
+        min-width: 190px;
+    }
+    .onecard-rinfo img{
+        width: 30px;
+    }
+    .roominfo-cards {
+        margin-bottom: 40px;
+    }
+    .inforoom {
+        width: 100%;
+        gap: 30px;
+    }
+    .room-gallery {
+        width: 100%;
+        height: 350px;
+    }
+    .morerooms-gallery {
+        min-width: 420px;
+        margin-bottom: 0;
+    }
+
+    /*процедуры*/
+    .oneproc-container {
+        height: 350px;
+        width: 275px;
+    }
+    .oneproc-style {
+        padding: 25px;
+        height: 350px;
+        width: 275px;
+    }
+    .oneproc-img {
+        height: 350px;
+        width: 275px;
+    }
+
+    /*контакты*/
+    .mapcontacts-style{
+        padding: 0px 0px 50px 0px;
+    }
+
+
+}
+
+.contacts-mobile-only {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    .block1contacts-style {
+        display: none !important;
+    }
+
+    .contacts-mobile-only {
+        display: block;
+        padding: 20px 30px 50px 30px;
+        background-color: #FFF9EE;
+    }
+
+    .contacts-mobile-header {
+        margin-bottom: 20px;
+    }
+
+    .contacts-mobile-btn {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /*padding: 15px 20px;*/
+        background-color: #FFF9EE;
+        border: none;
+        cursor: pointer;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #3E4A56;
+        transition: all 0.3s ease;
+    }
+
+    .contacts-mobile-btn:active {
+        background-color: rgba(96, 140, 153, 0.1);
+    }
+
+    .contacts-mobile-arrow {
+        display: inline-block;
+        font-size: 16px;
+        transition: transform 0.3s ease;
+    }
+
+    .contacts-mobile-btn.open .contacts-mobile-arrow {
+        transform: rotate(180deg);
+    }
+
+    .contacts-mobile-dropdown {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease;
+        background-color: #FFF9EE;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .contacts-mobile-dropdown.open {
+        max-height: 400px;
+        overflow-y: auto;
+    }
+
+    .contacts-mobile-sections {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    .contacts-mobile-section {
+        padding: 12px 20px;
+        font-family: 'Unbounded', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #3E4A56;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border-left: 3px solid transparent;
+    }
+
+    .contacts-mobile-section:active {
+        background-color: rgba(96, 140, 153, 0.1);
+    }
+
+    .contacts-mobile-section.active-mobile-section {
+        color: #608C99;
+        border-left-color: #608C99;
+        background-color: rgba(96, 140, 153, 0.05);
+        font-weight: 500;
+    }
+
+    .contacts-mobile-info-block {
+        display: none;
+        animation: mobileFadeIn 0.3s ease;
+    }
+
+    .contacts-mobile-info-block.active-mobile-info {
+        display: block;
+    }
+
+    @keyframes mobileFadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .mobile-contact-item {
+        margin-bottom: 20px;
+    }
+
+    .mobile-contact-item:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .mobile-contact-social {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .mobile-contact-social:last-child {
+        border-bottom: none;
+    }
+
+    .mobile-contact-social img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .mobile-contact-social a {
+        text-decoration: none;
+        transition: color 0.2s ease;
+    }
+
+    .mobile-contact-social a:active {
+        color: #3E4A56;
+    }
+
+    .contacts-mobile-info-block .font-size20 {
+        font-size: 18px;
+    }
+
+    .contacts-mobile-info-block .font-size16 {
+        font-size: 14px;
+    }
+
+    .contacts-mobile-info-block .font-size14 {
+        font-size: 12px;
+    }
+
+    .contacts-mobile-info-block .font-size12 {
+        font-size: 10px;
+    }
+}
